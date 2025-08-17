@@ -1,0 +1,91 @@
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+article{
+    height:fit-content !important;
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+    width: 420px;
+    border-radius: 5px;
+    height: 580px !important;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+}
+
+.icon-header1 {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.title {
+    margin: 10px;
+}
+
+.title-text {
+    margin: 2px
+}
+
+.icon-header2 {
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.post-img {
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.icons1 {
+    margin-left: 15px;
+}
+
+.icon2 {
+    margin-right: 15px;
+}
+
+.text-container {
+    padding: 15px;
+}
+
+.text-body {
+    font-size: 13px;
+}
